@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">RegistrationForm</string>
+    <string name="name_form">Formulario de Matricula</string>
+    <string name="codigo_estudiante">Código de Estudiante</string>
+    <string name="codigo_ejemplo">00012345678</string>
+    <string name="primer_nombre">Primer Nombre</string>
+    <string name="ejemplo_primer_nombre">Ejem. Juan</string>
+    <string name="tengo_segundo_nombre">Tengo segundo nombre</string>
+    <string name="ejem_seg_nombre">Ejem. Carlos</string>
+    <string name="apellido_paterno">Apellido Paterno</string>
+    <string name="ejem_rodriguez">Ejem. Rodriguez</string>
+    <string name="apellido_materno">Apellido Materno</string>
+    <string name="msg_escuela">Selecciona tu Escuela Profesional</string>
+    <string name="msg_asignaturas">Seleccione de Asignaturas Disponibles</string>
+    <string name="nombre_curso">Nombre del Curso</string>
+    <string name="creditos">Creditos</string>
+    <string name="elegir">Elegir</string>
+    <string name="msg_registrar_matricula">Registrar Matricula</string>
+</resources>
