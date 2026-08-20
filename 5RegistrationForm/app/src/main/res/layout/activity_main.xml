@@ -29,11 +29,11 @@
             android:textStyle="bold"/>
 
         <EditText
+            android:id="@+id/etCodEst"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/codigo_ejemplo"
             android:layout_marginBottom="12dp"
-            />
+            android:hint="@string/codigo_ejemplo" />
 
         <TextView
             android:layout_width="match_parent"
@@ -42,6 +42,7 @@
             android:textStyle="bold"/>
 
         <EditText
+            android:id="@+id/et_primer_nombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/ejemplo_primer_nombre"
@@ -50,11 +51,13 @@
             /><!--ver inputType-->
 
         <CheckBox
+            android:id="@+id/chk_habilitar_segundo_nombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/tengo_segundo_nombre"/>
 
         <EditText
+            android:id="@+id/et_segundo_nombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/ejem_seg_nombre"
@@ -69,12 +72,12 @@
             android:textStyle="bold"/>
 
         <EditText
+            android:id="@+id/et_apellido_paterno"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
             android:hint="@string/ejem_rodriguez"
-            android:inputType="textPersonName"
-            android:enabled="false"
-            android:layout_marginBottom="12dp"/>
+            android:inputType="textPersonName" />
 
         <TextView
             android:layout_width="match_parent"
@@ -83,11 +86,11 @@
             android:textStyle="bold"/>
 
         <EditText
+            android:id="@+id/et_apellido_materno"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/ejem_rodriguez"
             android:inputType="textPersonName"
-            android:enabled="false"
             android:layout_marginBottom="12dp"/>
 
         <TextView
@@ -99,6 +102,7 @@
             android:layout_marginBottom="12dp"/>
 
         <Spinner
+            android:id="@+id/spinner_escuelas"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:minHeight="48dp"
@@ -106,6 +110,7 @@
             />
 
         <TextView
+            android:id="@+id/tv_titutlo_cursos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/msg_asignaturas"
@@ -115,6 +120,7 @@
             android:visibility="visible"/>
 
         <TableLayout
+            android:id="@+id/table_cursos"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:visibility="visible">
@@ -145,6 +151,7 @@
         </TableLayout>
 
         <Button
+            android:id="@+id/btn_registrar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/msg_registrar_matricula"
