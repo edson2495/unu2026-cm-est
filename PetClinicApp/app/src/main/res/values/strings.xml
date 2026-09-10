@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">PetClinic App</string>
+    <string name="open_nav">Abrir menu</string>
+    <string name="close_nav">Cerrar menu</string>
+    <string name="hello_home_fragment">Hello from home fragment</string>
+    <string name="hello_profile_fragment">Hello from profile fragment</string>
+    <string name="hello_settings_fragment">Hello from settings fragment</string>
+    <string name="msg_username">Username</string>
+    <string name="msg_password">Password</string>
+    <string name="btn_login">Login</string>
+    <string name="msg_login_alternatives">Tambien puedes logearte con :</string>
+</resources>
